@@ -46,7 +46,7 @@ function Footer() {
               </a>
             </li>
             <li className="flex items-center gap-2">
-              📞 <span>[Insert Phone Number]</span>
+              📞 <span>+234 - 810 555 8593</span>
             </li>
           </ul>
         </div>
