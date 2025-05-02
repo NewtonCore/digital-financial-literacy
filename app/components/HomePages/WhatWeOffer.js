@@ -23,31 +23,37 @@ function WhatWeOffer() {
                 title: "Foundational Digital Literacy",
                 subtitle: "Beginner Skills",
                 image: "/images/Foundational.png",
+                text:"Basic computer and internet skills for complete beginners."
               },
               {
                 title: "Entrepreneurship Training",
                 subtitle: "Business Essentials",
                 image: "/images/Entrepreneurship.png",
+                text:"Business ideation, branding, pricing, and monetization strategies."
               },
               {
                 title: "Practical Digital Tools",
                 subtitle: "Hands-on Platforms",
                 image: "/images/Practical.png",
+                text:"Training in Canva, WhatsApp Business, Instagram marketing, Google Workspace, and more."
               },
               {
                 title: "E-Commerce Setup",
                 subtitle: "Launch Your Store",
                 image: "/images/E-Commerce.png",
+                text:"Guidance on starting online shops, freelancing profiles, and creating digital portfolios."
               },
               {
                 title: "Mentorship & Community",
                 subtitle: "Support Network",
                 image: "/images/Mentorship.png",
+                text:"Access to female mentors, coaches, and a support network for growth."
               },
               {
                 title: "Certification",
                 subtitle: "Credentialed Learning",
                 image: "/images/Certification.png",
+                text:"Recognized certificates to build credibility and unlock opportunities."
               },
             ].map((item, idx) => (
               <Fade direction="" key={idx}>
@@ -74,6 +80,9 @@ function WhatWeOffer() {
                       <h3 className="text-2xl font-bold text-white mb-4">
                         {item.title}
                       </h3>
+                      <p className="text-xs">
+                        {item?.text}
+                      </p>
                     </Slide>
                   </div>
                 </div>
