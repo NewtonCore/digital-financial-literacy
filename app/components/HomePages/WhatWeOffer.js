@@ -50,7 +50,7 @@ function WhatWeOffer() {
                 image: "/images/Certification.png",
               },
             ].map((item, idx) => (
-                <Fade direction="">
+                <Fade direction="" key={idx}>
                 <div className="group relative overflow-hidden rounded-2xl">
               
                   {/* Image Wrapper with Zoom on Hover */}

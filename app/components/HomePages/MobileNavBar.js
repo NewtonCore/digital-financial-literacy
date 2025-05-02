@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import {  Slide } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 import { FaTimes } from "react-icons/fa";
 function MobileNavBar({ isOpen, Styles, Close, className, links }) {
   return (
@@ -25,17 +25,21 @@ function MobileNavBar({ isOpen, Styles, Close, className, links }) {
           </div>
           <div>
             <ul className="text-white lg:flex lg:space-x-4">
-              {links.map((link,index) => {
+              {links.map((link, index) => {
                 return (
-                  <li className="px-4 py-2 hover:bg-gray-700 lg:hover:bg-transparent">
-                    <Slide damping={index+1/2} direction="left">
-                    <Link onClick={Close} href={link.link}> {link.name}</Link>
+                  <li
+                    key={index}
+                    className="px-4 py-2 hover:bg-gray-700 lg:hover:bg-transparent"
+                  >
+                    <Slide damping={index + 1 / 2} direction="left">
+                      <Link onClick={Close} href={link.link}>
+                        {" "}
+                        {link.name}
+                      </Link>
                     </Slide>
                   </li>
                 );
               })}
-
-              
             </ul>
           </div>
         </div>

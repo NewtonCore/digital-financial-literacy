@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Footer() {
@@ -6,9 +7,18 @@ function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
         {/* Branding */}
         <div>
-          <h3 className="text-2xl font-bold mb-3">Newton Academy</h3>
+          <Image
+            width={100}
+            height={100}
+            src={"/images/Logowhite.svg"}
+            alt="Newton Academy"
+            blurDataURL="data:..."
+            className="w-[120px]"
+          />
+          {/* <h3 className="text-2xl font-bold mb-3">Newton Academy</h3> */}
           <p className="text-gray-300 text-sm">
-            Empowering women and girls with digital skills for a brighter future.
+            Empowering women and girls with digital skills for a brighter
+            future.
           </p>
         </div>
 
@@ -18,7 +28,10 @@ function Footer() {
           <ul className="space-y-3 text-sm text-gray-300">
             <li className="flex items-center gap-2">
               📧
-              <a href="mailto:na@newtoncore.com" className="hover:text-teal-400">
+              <a
+                href="mailto:na@newtoncore.com"
+                className="hover:text-teal-400"
+              >
                 na@newtoncore.com
               </a>
             </li>
