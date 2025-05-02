@@ -8,16 +8,24 @@ import MobileNavBar from "./MobileNavBar";
 function NavBar() {
   let links = [
     {
-      name: "Services",
-      link: "#services",
+      name: "Our Solution",
+      link: "#our-solution",
     },
     // {
     //   name: "Showcase",
     //   link: "#stack",
     // },
     {
-      name: "Stack",
-      link: "#stack",
+      name: "What we offer",
+      link: "#what-we-offer",
+    },
+    {
+      name: "Target Impact",
+      link: "#target-impact",
+    },
+    {
+      name: "Register",
+      link: "#register",
     },
   ];
   const [scrolled, setScrolled] = useState(false);
@@ -52,13 +60,13 @@ function NavBar() {
             {" "}
             {/* Here is the logo link ,righr*/}
             <Image
-            width={100}
-            height={100}
-                src={"/images/LogoTeal.svg"}
-                alt="Newton Academy"
-                blurDataURL="data:..."
-                className="w-[120px]"
-              />
+              width={100}
+              height={100}
+              src={"/images/LogoTeal.svg"}
+              alt="Newton Academy"
+              blurDataURL="data:..."
+              className="w-[120px]"
+            />
             {/* <div className="bg-white rounded-xl p-2 h-14  mb-5 text-black">
                 
               <Link href="#" className="text-black text-sm">
