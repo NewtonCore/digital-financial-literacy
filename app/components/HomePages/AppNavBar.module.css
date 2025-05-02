@@ -1,0 +1,53 @@
+.ULlink {
+}
+
+.ULlink li {
+  display: inline-block;
+  padding: 20px;
+  font-weight: 500;
+}
+.MobileNav li{
+    padding: 20px;
+    font-size: 30px;
+}
+
+.linksSection {
+  /* background: red; */
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.Nav {
+  /* background: #000; */
+  /* color: white; */
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-top: 10px;
+  /* background: red; */
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  /* background: red; */
+}
+
+
+.NavButton{
+    /* background: #000; */
+    /* padding: 10px */
+}
+.MobileNav{
+    height: 100vh !important;
+    background: #2F004B;
+    width: 100%;
+}
