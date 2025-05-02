@@ -50,9 +50,8 @@ function WhatWeOffer() {
                 image: "/images/Certification.png",
               },
             ].map((item, idx) => (
-                <Fade direction="" key={idx}>
+              <Fade direction="" key={idx}>
                 <div className="group relative overflow-hidden rounded-2xl">
-              
                   {/* Image Wrapper with Zoom on Hover */}
                   <div className="relative h-[300px] overflow-hidden">
                     <img
@@ -62,7 +61,7 @@ function WhatWeOffer() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
                   </div>
-              
+
                   {/* Text Content */}
                   <div className="absolute bottom-0 left-0 right-0 p-6">
                     <Slide direction="up">
@@ -70,7 +69,7 @@ function WhatWeOffer() {
                         {item.subtitle}
                       </span>
                     </Slide>
-              
+
                     <Slide direction="up">
                       <h3 className="text-2xl font-bold text-white mb-4">
                         {item.title}

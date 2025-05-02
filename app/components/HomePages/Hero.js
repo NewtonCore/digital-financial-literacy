@@ -1,8 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { AttentionSeeker, Fade, Hinge, Slide } from "react-awesome-reveal";
-import { BiRightArrowAlt } from "react-icons/bi";
+import {  Slide } from "react-awesome-reveal";
 
 function Hero() {
   return (
