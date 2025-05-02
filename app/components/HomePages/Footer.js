@@ -56,8 +56,8 @@ function Footer() {
           <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-sm text-gray-300">
             <li>
-              <a href="#our-solutions" className="hover:text-teal-400">
-                Our Solutions
+              <a href="#our-solution" className="hover:text-teal-400">
+                Our Solution
               </a>
             </li>
             <li>
@@ -66,7 +66,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="#why-digital" className="hover:text-teal-400">
+              <a href="#why-digital-entrepreneurship" className="hover:text-teal-400">
                 Why Digital Entrepreneurship
               </a>
             </li>

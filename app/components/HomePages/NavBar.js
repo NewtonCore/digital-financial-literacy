@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import Styles from "./AppNavBar.module.css";
 import Image from "next/image";
 import MobileNavBar from "./MobileNavBar";
-
 function NavBar() {
   let links = [
     {
@@ -111,7 +110,7 @@ function NavBar() {
               className={`${
                 Styles.NavButton
               } focus:outline-none md:hidden block ${
-                scrolled && "bg-[#2F004B] rounded-md"
+                scrolled && "bg-[#00414b] rounded-md"
               }`}
             >
               <Image

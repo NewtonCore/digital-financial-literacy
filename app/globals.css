@@ -31,3 +31,10 @@ body {
 p {
   font-weight: 300; /* Ensure normal weight for paragraphs */
 }
+
+html{
+  scroll-behavior: smooth !important;
+  /* font-family: "Urbanist", sans-serif !important; */
+  color: rgb(40, 40, 40);
+
+}

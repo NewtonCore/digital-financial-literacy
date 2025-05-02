@@ -3,7 +3,7 @@ import Image from 'next/image'; // Or use <img> if you're not on Next.js
 
 function OurSolutionsIntro() {
   return (
-    <div className="bg-slate-100 py-16 px-6 md:px-20">
+    <div className="bg-slate-100 py-16 px-6 md:px-20" id='our-solution'>
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
         
         {/* Text content on the left */}
