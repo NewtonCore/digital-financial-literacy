@@ -23,7 +23,7 @@ function Footer() {
 
         {/* Contact Info */}
         <div>
-          <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
+          <h4 className="text-lg font-semibold mb-4">Expression of Interest</h4>
           <ul className="space-y-3 text-sm text-gray-300">
             <li className="flex items-center gap-2">
               📧

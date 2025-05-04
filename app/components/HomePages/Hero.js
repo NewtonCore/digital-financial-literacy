@@ -22,19 +22,19 @@ function Hero() {
                 <span className="text-teal-500 capitalize">
                   WOMEN AND GIRLS{" "}
                 </span>{" "}
-                IN Africa THROUGH DIGITAL ENTREPRENEURSHIP
+                IN AFRICA THROUGH DIGITAL ENTREPRENEURSHIP
               </h1>
             </Slide>
 
             <Slide direction="up">
               <div className="mt-6 space-y-2 text-slate-200">
                 <p className="text-lg font-medium">
-                  <span className="text-white">Presented by:</span> Newton
-                  Academy
+                  {/* <span className="text-white">Presented by:</span> Newton
+                  Academy */}
                 </p>
                 <p className="text-lg font-medium">
-                  <span className="text-white">Date:</span> Tuesday, March 25th,
-                  2025
+                  {/* <span className="text-white">Date:</span> Tuesday, March 25th, */}
+                  {/* 2025 */}
                 </p>
               </div>
             </Slide>

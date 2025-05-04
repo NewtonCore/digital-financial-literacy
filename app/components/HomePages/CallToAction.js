@@ -30,12 +30,13 @@ export default function CallToAction() {
           {!submitted ? (
             <>
               <h2 className="text-2xl font-bold text-gray-800 mb-6">
-                Contact Us
+                Expression of Interest
               </h2>
               <form
                 name="contact"
                 method="POST"
                 data-netlify="true"
+                data-netlify-honeypot="bot-field"
                 onSubmit={(e) => {
                   e.preventDefault();
                   const form = e.target;
@@ -52,6 +53,11 @@ export default function CallToAction() {
                 className="space-y-5"
               >
                 <input type="hidden" name="form-name" value="contact" />
+                <label>
+                  Don't fill this out if you're human:
+                  {/* Hidden input for Netlify bot-field */}
+                  <input name="bot-field" type="hidden" />
+                </label>
 
                 <div className="flex flex-col md:flex-row md:space-x-4">
                   <div className="flex-1">
@@ -119,7 +125,7 @@ export default function CallToAction() {
           ) : (
             <div className="text-center text-teal-800 bg-teal-100 rounded-xl p-6 shadow-md">
               <h3 className="text-xl font-bold mb-2">Thank you!</h3>
-              <p>We’ve received your message and will get back to you soon.</p>
+              <p>We've received your message and will get back to you soon.</p>
             </div>
           )}
         </div>
