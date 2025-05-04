@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image'; // Or use <img> if you're not on Next.js
 
 function OurSolutionsIntro() {
   return (
@@ -21,8 +20,8 @@ function OurSolutionsIntro() {
 
         {/* Image on the right */}
         <div className="md:w-1/2">
-          <Image 
-            src="/images/empowered_women.png" // Change to your actual image path
+          <img
+            src="/images/empowered_women.png"
             alt="Empowered Women Learning"
             width={600}
             height={400}

@@ -22,7 +22,7 @@ function Hero() {
                 <span className="text-teal-500 capitalize">
                   WOMEN AND GIRLS{" "}
                 </span>{" "}
-                IN NIGERIA THROUGH DIGITAL ENTREPRENEURSHIP
+                IN Africa THROUGH DIGITAL ENTREPRENEURSHIP
               </h1>
             </Slide>
 

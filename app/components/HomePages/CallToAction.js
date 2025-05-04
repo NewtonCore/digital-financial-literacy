@@ -15,7 +15,7 @@ export default function CallToAction() {
             Digital Skills?
           </h2>
           <p className="text-lg md:text-xl mb-8 text-slate-600">
-            Let’s work together to equip women and girls in Nigeria with the
+            Let's work together to equip women and girls in Africa with the
             tools they need to succeed in the digital economy.
           </p>
           {/* <a

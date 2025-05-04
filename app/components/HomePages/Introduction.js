@@ -16,7 +16,7 @@ function Introduction() {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Introduction</h2>
           <p className="text-lg leading-relaxed mb-4">
-            In Nigeria, millions of girls and young women remain trapped in a
+            In Africa, millions of girls and young women remain trapped in a
             cycle of poverty—not because they lack potential, but because they
             lack opportunity. Many were denied the chance to complete school.
             Others were forced into early marriages, became mothers too soon, or
