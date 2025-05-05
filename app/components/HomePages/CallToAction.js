@@ -109,7 +109,7 @@ export default function CallToAction() {
                       type="text"
                       name="firstName"
                       id="firstName"
-                      className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+                      className="w-full px-4 py-2 border border-slate-400 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
                       placeholder="First name"
                       required
                     />
@@ -126,7 +126,7 @@ export default function CallToAction() {
                       type="text"
                       name="secondName"
                       id="secondName"
-                      className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+                      className="w-full px-4 py-2 border  border-slate-400 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
                       placeholder="Second name"
                       required
                     />
@@ -144,7 +144,7 @@ export default function CallToAction() {
                     type="email"
                     name="email"
                     id="email"
-                    className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+                    className="w-full px-4 py-2 border  border-slate-400 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
                     placeholder="you@example.com"
                     required
                   />
@@ -158,9 +158,10 @@ export default function CallToAction() {
                     Message
                   </label>
                   <textarea
+                    rows={5}
                     name="message"
                     id="email"
-                    className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+                    className="w-full px-4 py-2 border  border-slate-400 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
                     placeholder="Message"
                     required
                   />
