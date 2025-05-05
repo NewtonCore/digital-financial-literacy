@@ -3,8 +3,8 @@ import { AttentionSeeker, Fade, Hinge, Slide } from "react-awesome-reveal";
 
 function WhatWeOffer() {
   return (
-    <div className="bg-[#0A122A] text-gray-800 py-16 px-4 md:px-10" id="what-we-offer">
-      <div className="bg-[#0A122A] text-white py-16 px-4">
+    <div className="bg-teal-800 text-gray-800 py-16 px-4 md:px-10" id="what-we-offer">
+      <div className="bg-teal-800 text-white py-16 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">

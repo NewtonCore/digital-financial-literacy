@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 function Footer() {
   return (
-    <footer className="bg-[#0A122A] text-white py-10 px-6 md:px-20">
+    <footer className="bg-teal-800 text-white py-10 px-6 md:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
         {/* Branding */}
         <div>
