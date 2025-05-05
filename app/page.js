@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "./components/HomePages/Hero";
 import Introduction from "./components/HomePages/Introduction";
 import OurSolutions from "./components/HomePages/OurSolutions";
@@ -13,16 +12,16 @@ import Conclusion from "./components/HomePages/Conclusion";
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <NavBar/>
-     <Hero/>
-     <Introduction/>
-     <OurSolutions/>
-     <WhatWeOffer/>
-     <WhyDigitalEntrepreneurship/>
-     <TargetImpact/>
-     <CallToAction/>
-     <Conclusion/>
-     <Footer/>
-   </div>
+      <NavBar />
+      <Hero />
+      <Introduction />
+      <OurSolutions />
+      <WhatWeOffer />
+      <WhyDigitalEntrepreneurship />
+      <TargetImpact />
+      <CallToAction />
+      <Conclusion />
+      <Footer />
+    </div>
   );
 }
