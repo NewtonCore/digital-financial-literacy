@@ -13,21 +13,21 @@ function Conclusion() {
       
       <div className="relative max-w-4xl mx-auto text-center">
         <Slide direction="up">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">
+        <h2 className="text-3xl md:text-4xl font-medium mb-6">
         INVESTING IN GIRLS MEANS INVESTING IN NATIONS
         </h2>
         </Slide>
         
         <Slide direction="up">
-        <p className="text-lg md:text-xl mb-6">
+        <p className="text-lg md:text-md mb-6">
         This is more than training — it’s a mission to lift women and girls out of digital exclusion. When one woman is empowered, her whole community benefits.
         </p>
         </Slide>
         <Slide direction="up">
-        <p className="text-lg md:text-xl font-medium">
+        <p className="text-lg md:text-md">
         Let’s give them the tools to thrive. Digital entrepreneurship can be the path that lifts millions out of poverty.
         </p>
-        <p className="text-lg md:text-xl font-semibold mt-6 italic">Together, we can.</p>
+        <p className="text-lg md:text-md mt-6 italic">Together, we can.</p>
         </Slide>
 
        
