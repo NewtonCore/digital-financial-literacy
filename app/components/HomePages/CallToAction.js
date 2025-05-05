@@ -14,10 +14,27 @@ export default function CallToAction() {
             <span className="text-teal-500">Empower Women</span> Through
             Digital Skills?
           </h2>
-          <p className="text-lg md:text-xl mb-8 text-slate-600">
+          <p className="text-lg  mb-8 text-slate-600">
             Let's work together to equip women and girls in Africa with the
             tools they need to succeed in the digital economy.
           </p>
+          <p className="text-gray-700 text-lg mb-4">
+            To scale this impact, we are seeking strategic partnerships and funding support in the following areas:
+          </p>
+          <ul className="list-disc list-inside text-gray-700 space-y-3">
+            <li>
+              <strong>UNICEF and NGOs</strong> – Collaboration on gender-focused digital inclusion programs.
+            </li>
+            <li>
+              <strong>Government</strong> – Integration into youth and women empowerment policies and programs.
+            </li>
+            <li>
+              <strong>Corporate Sponsors</strong> – Funding for devices, data, and scholarships for low-income learners.
+            </li>
+            <li>
+              <strong>Tech Firms</strong> – Access to platforms, mentorship, and post-training opportunities.
+            </li>
+          </ul>
           {/* <a
             href="#contact"
             className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300"
