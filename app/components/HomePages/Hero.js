@@ -39,9 +39,9 @@ function Hero() {
               </div>
             </Slide>
             {/* CTA Button */}
-            <button className="mt-4 px-6 py-3 bg-teal-600 hover:bg-teal-700 text-white font-semibold rounded-full shadow-md transition duration-300">
+            <Link href={"#contact"} className="mt-4 px-6 py-3 bg-teal-600 hover:bg-teal-700 text-white font-semibold rounded-full shadow-md transition duration-300">
               Register Now
-            </button>
+            </Link>
           </div>
         </div>
       </div>

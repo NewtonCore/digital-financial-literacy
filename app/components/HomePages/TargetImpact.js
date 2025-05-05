@@ -7,7 +7,7 @@ function TargetImpact() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
       <div className="w-full">
           <img
-            src="/images/TargetImpact.png" // Replace with your image path
+            src="/images/woman-laptop.png" // Replace with your image path
             alt="Target Impact"
             className="rounded-2xl shadow-lg w-full h-auto object-cover"
           />

@@ -34,21 +34,18 @@ function WhyDigitalEntrepreneurship() {
             Digital entrepreneurship is a game changer for women because it:
           </p>
         </Slide>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-          {points.map((point, index) => (
-            <Slide direction="up" key={index}>
-              <div
-                key={index}
-                className="bg-[#F1F5F9] p-6 rounded-xl shadow hover:shadow-md transition duration-300 text-left"
-              >
-                <h3 className="text-xl font-semibold mb-2 text-[#0A122A]">
-                  {point.title}
-                </h3>
-                <p className="text-gray-700 text-sm">{point.text}</p>
-              </div>
-            </Slide>
-          ))}
-        </div>
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-stretch">
+  {points.map((point, index) => (
+    <Slide direction="up" key={index}>
+      <div className="bg-[#F1F5F9] p-6 rounded-xl shadow hover:shadow-md transition duration-300 text-left h-full flex flex-col">
+        <h3 className="text-xl font-semibold mb-2 text-[#0A122A]">
+          {point.title}
+        </h3>
+        <p className="text-gray-700 text-sm flex-grow">{point.text}</p>
+      </div>
+    </Slide>
+  ))}
+</div>
 
         <p className="mt-12 text-base md:text-lg text-gray-800 max-w-4xl mx-auto">
           Nigerian women are already earning{" "}

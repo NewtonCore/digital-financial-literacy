@@ -113,6 +113,22 @@ export default function CallToAction() {
                 </div>
 
                 <div>
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-700 mb-1"
+                  >
+                    Message
+                  </label>
+                  <textarea
+                    name="message"
+                    id="email"
+                    className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+                    placeholder="Message"
+                    required
+                  />
+                </div>
+
+                <div>
                   <button
                     type="submit"
                     className="w-full bg-teal-600 hover:bg-teal-700 text-white py-2 px-4 rounded-md transition duration-200"

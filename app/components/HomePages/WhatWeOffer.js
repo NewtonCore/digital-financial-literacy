@@ -22,7 +22,7 @@ function WhatWeOffer() {
               {
                 title: "Foundational Digital Literacy",
                 subtitle: "Beginner Skills",
-                image: "/images/Foundational.png",
+                image: "/images/digital_literacy.png",
                 text:"Basic computer and internet skills for complete beginners."
               },
               {

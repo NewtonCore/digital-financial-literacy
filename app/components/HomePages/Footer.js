@@ -15,7 +15,7 @@ function Footer() {
             className="w-[120px]"
           />
           {/* <h3 className="text-2xl font-bold mb-3">Newton Academy</h3> */}
-          <p className="text-gray-300 text-sm">
+          <p className="text-gray-300 text-sm mt-5">
             Empowering women and girls with digital skills for a brighter
             future.
           </p>
