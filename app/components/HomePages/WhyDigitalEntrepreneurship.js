@@ -6,18 +6,24 @@ function WhyDigitalEntrepreneurship() {
     {
       title: "No Degree Needed",
       text: "Only relevant skills and access are required, not a university degree.",
+      delay:50
     },
     {
       title: "Work from Home",
       text: "Women can balance business with family responsibilities while working remotely.",
+      delay:100
     },
     {
       title: "Global Opportunities",
       text: "E-commerce and freelancing platforms allow women to earn globally.",
+      delay:150
+
     },
     {
       title: "Confidence & Leadership",
       text: "Digital ventures build self-confidence and leadership in marginalized women.",
+      delay:200
+
     },
   ];
 
@@ -36,7 +42,7 @@ function WhyDigitalEntrepreneurship() {
         </Slide>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-stretch">
   {points.map((point, index) => (
-    <Slide direction="up" key={index}>
+    <Slide direction="up" key={index} delay={point.delay}>
       <div className="bg-[#F1F5F9] p-6 rounded-xl shadow hover:shadow-md transition duration-300 text-left h-full flex flex-col">
         <h3 className="text-xl font-semibold mb-2 text-[#0A122A]">
           {point.title}

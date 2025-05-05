@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { Slide } from "react-awesome-reveal";
 
 export default function CallToAction() {
   const [submitted, setSubmitted] = useState(false);
@@ -7,33 +8,53 @@ export default function CallToAction() {
   return (
     <div className="bg-white py-16 px-6 md:px-20" id="register">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          {/* Right: Call to Action */}
-          <div className="text-left">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready to{" "}
-            <span className="text-teal-500">Empower Women</span> Through
-            Digital Skills?
-          </h2>
-          <p className="text-lg  mb-8 text-slate-600">
-            Let's work together to equip women and girls in Africa with the
-            tools they need to succeed in the digital economy.
-          </p>
-          <p className="text-gray-700 text-lg mb-4">
-            To scale this impact, we are seeking strategic partnerships and funding support in the following areas:
-          </p>
+        {/* Right: Call to Action */}
+        <div className="text-left">
+          <Slide direction="up">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Ready to <span className="text-teal-500">Empower Women</span>{" "}
+              Through Digital Skills?
+            </h2>
+          </Slide>
+          <Slide direction="up">
+            <p className="text-lg  mb-8 text-slate-600">
+              Let's work together to equip women and girls in Africa with the
+              tools they need to succeed in the digital economy.
+            </p>
+          </Slide>
+
+          <Slide direction="up">
+            <p className="text-gray-700 text-lg mb-4">
+              To scale this impact, we are seeking strategic partnerships and
+              funding support in the following areas:
+            </p>
+          </Slide>
+
           <ul className="list-disc list-inside text-gray-700 space-y-3">
-            <li>
-              <strong>UNICEF and NGOs</strong> – Collaboration on gender-focused digital inclusion programs.
-            </li>
-            <li>
-              <strong>Government</strong> – Integration into youth and women empowerment policies and programs.
-            </li>
-            <li>
-              <strong>Corporate Sponsors</strong> – Funding for devices, data, and scholarships for low-income learners.
-            </li>
-            <li>
-              <strong>Tech Firms</strong> – Access to platforms, mentorship, and post-training opportunities.
-            </li>
+            <Slide direction="up" delay={300}>
+              <li>
+                <strong>UNICEF and NGOs</strong> – Collaboration on
+                gender-focused digital inclusion programs.
+              </li>
+            </Slide>
+            <Slide direction="up" delay={310}>
+              <li>
+                <strong>Government</strong> – Integration into youth and women
+                empowerment policies and programs.
+              </li>
+            </Slide>
+            <Slide direction="up" delay={320}>
+              <li>
+                <strong>Corporate Sponsors</strong> – Funding for devices, data,
+                and scholarships for low-income learners.
+              </li>
+            </Slide>
+            <Slide direction="up" delay={330}>
+              <li>
+                <strong>Tech Firms</strong> – Access to platforms, mentorship,
+                and post-training opportunities.
+              </li>
+            </Slide>
           </ul>
           {/* <a
             href="#contact"
@@ -162,8 +183,6 @@ export default function CallToAction() {
             </div>
           )}
         </div>
-
-      
       </div>
     </div>
   );

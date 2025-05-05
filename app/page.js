@@ -8,6 +8,7 @@ import Footer from "./components/HomePages/Footer";
 import TargetImpact from "./components/HomePages/TargetImpact";
 import CallToAction from "./components/HomePages/CallToAction";
 import NavBar from "./components/HomePages/NavBar";
+import Conclusion from "./components/HomePages/Conclusion";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
      <WhyDigitalEntrepreneurship/>
      <TargetImpact/>
      <CallToAction/>
+     <Conclusion/>
      <Footer/>
    </div>
   );
