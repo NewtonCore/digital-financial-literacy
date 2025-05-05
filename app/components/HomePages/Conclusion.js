@@ -25,7 +25,11 @@ function Conclusion() {
               "When one woman is empowered, her whole community benefits.",
               "Let’s give them the tools to thrive.",
               "Digital entrepreneurship can be the path that lifts millions out of poverty.",
-              "Together, we can.",
+              "Together, we can:",
+              "Equip young women with digital business skills.",
+              "End the cycle of poverty and early marriage.",
+              "Build a generation of financially independent women entrepreneurs."
+
             ]}
             loop={Infinity}
             cursor
