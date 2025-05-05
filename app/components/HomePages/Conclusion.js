@@ -27,7 +27,7 @@ function Conclusion() {
               "Digital entrepreneurship can be the path that lifts millions out of poverty.",
               "Together, we can.",
             ]}
-            loop={3}
+            loop={Infinity}
             cursor
             cursorStyle="_"
             typeSpeed={30}
