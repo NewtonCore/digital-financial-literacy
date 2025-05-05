@@ -38,7 +38,7 @@ function WhyDigitalEntrepreneurship() {
         </Slide>
         <Slide direction="up">
           <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-12">
-            Digital entrepreneurship is a game changer for women because it:
+            Digital entrepreneurship is a game changer for women because:
           </p>
         </Slide>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-stretch">
